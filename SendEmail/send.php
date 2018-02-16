@@ -18,9 +18,10 @@
     $mail->SMTPAuth = true;
     $mail->Username = "AQUI_VAI_SEU_E-MAIL";
     $mail->Password = "SENHA_DO_SEU_EMAIL";
-    $mail->setFrom('matheus.sparks@hotmail.com', 'Matheus Campos');
+    $mail->setFrom('AQUI_VAI_SEU_E-MAIL', 'Seu nome');
     // Responder a:
-    $mail->addReplyTo('matheus.sparks@gmail.com', 'Responder para: ');
+    $mail->addReplyTo('AQUI_VAI_SEU_E-MAIL', 'Responder para: ');
+    // Para quem irá o e-mail envíado.
     $mail->addAddress('matheus.sparks@gmail.com', '');
     $mail->isHTML(true);
 
